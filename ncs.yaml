@@ -23,7 +23,7 @@ tasks:
   # Prepare Database
   - action: connect_database
   - action: query_database
-    file: ./tmp/ncs/ncs.sql
+    file: ./tmp/ncs/database_scheme.sql
     
 
   # STANDALONE
